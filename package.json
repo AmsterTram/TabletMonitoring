@@ -1,0 +1,14 @@
+{
+  "name": "tablet-monitoring",
+  "private": true,
+  "version": "0.1.0",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:server": "npm --workspace @tablet-monitoring/server run dev",
+    "dev:web": "npm --workspace @tablet-monitoring/web run dev",
+    "build": "npm run -ws build"
+  }
+}
